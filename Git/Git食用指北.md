@@ -1,5 +1,8 @@
 [pixiv: 88125344]: # 'https://cdn.jsdelivr.net/gh/tofu2333/Bolg-Cover/pixiv/88125344_p0_master1200.jpg'
+
 记录自己在食用 `git` 时产生的一些 `问题` 和 `解决办法` ，防止下次碰到相同情况找不到解决办法。
+
+---
 
 # git clone
 拷贝一个 Git 仓库到本地，让自己能够查看该项目，或者进行修改。
