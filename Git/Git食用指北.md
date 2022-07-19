@@ -67,6 +67,18 @@ git pull origin master:test
 
  ---
 
+# git 查看暂存区(缓存区)
+`git ls-files` 查看暂存区中文件信息   
+`--cached` (-c) 查看暂存区中文件，`git ls-files` 命令默认是此命令    
+`--midified` (-m) 查看修改的文件   
+`--delete` (-d) 查看删除过的文件    
+`--other` (-o) 查看没有被git跟踪的文件    
+`--stage` (-s) 显示mode以及文件对应的Blob对象，进而我们可以获取暂存区中对应文件里面的内容。   
+`git ls-files -c` 或者 `git ls-files --cached`  其他类似
+
+#### 删除暂存区文件
+`git rm --cached <file>` 用来修改暂存区目录(不修改工作区目录),相当于 `git add` 的一个逆过程
+
 # 其他
 查看远程链接 `git remote -v`  
 查看分支 `git branch -a`
